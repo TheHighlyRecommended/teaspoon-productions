@@ -56,14 +56,14 @@ nav {
 }
 
 .logo-icon {
-  width: 34px;
-  height: 34px;
+  width: 52px;
+  height: 52px;
   flex-shrink: 0;
 }
 
 .logo-text {
   font-family: var(--font-serif);
-  font-size: 16px;
+  font-size: 26px;
   font-weight: 700;
   color: var(--ink);
   line-height: 1.1;
@@ -71,13 +71,13 @@ nav {
 }
 
 .logo-sub {
-  font-size: 9px;
+  font-size: 11px;
   font-weight: 400;
-  letter-spacing: 0.22em;
+  letter-spacing: 0.28em;
   text-transform: uppercase;
   color: var(--lime-deeper);
   display: block;
-  margin-top: 2px;
+  margin-top: 3px;
 }
 
 .nav-links {
@@ -289,7 +289,7 @@ nav {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 20%;
   display: block;
 }
 
