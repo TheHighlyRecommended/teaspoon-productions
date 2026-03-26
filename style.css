@@ -282,14 +282,14 @@ nav {
 }
 
 .show-cm .show-card-visual {
-  background: #0f0610;
+  background: #fce4ec;
 }
 
 .show-card-visual img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center 20%;
+  object-position: center center;
   display: block;
 }
 
@@ -309,17 +309,28 @@ nav {
 
 .show-card-title {
   font-family: var(--font-serif);
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
-  color: rgba(255, 255, 255, 0.92);
+  font-style: italic;
+  color: #fff;
   z-index: 1;
   text-align: center;
   padding: 0 24px;
   line-height: 1.25;
 }
 
+.show-cm .show-card-title {
+  color: #fff;
+  text-shadow: 0 1px 4px rgba(180, 0, 80, 0.15);
+}
+
 .show-cm .show-card-title span {
-  color: #f48fb1;
+  color: #e91e8c;
+}
+
+.show-cm .show-card-badge {
+  border-color: rgba(233, 30, 140, 0.3);
+  color: rgba(233, 30, 140, 0.7);
 }
 
 .show-card-body {
